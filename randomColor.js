@@ -72,7 +72,7 @@
         // Since we're generating multiple colors,
         // incremement the seed. Otherwise we'd just
         // generate the same color each time...
-        if (seed && options.seed) options.seed += 1;
+        if (seed && options.seed) options.seed += 10;
 
         colors.push(randomColor(options));
       }
